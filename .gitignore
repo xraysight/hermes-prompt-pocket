@@ -1,0 +1,26 @@
+# Dependencies and generated output
+/node_modules/
+/coverage/
+/dist/
+*.log
+
+# Local environment and editor state
+.env
+.env.*
+!.env.example
+.DS_Store
+/.agents/
+/.codex/
+
+# Internal planning and historical verification records
+/ACCEPTANCE-REVIEW.md
+/CODEX-RESULT.md
+/CODEX-REVIEW-FIXES.md
+/FINAL-REPORT.md
+/IDEA.md
+/LIVE-REVIEW-179.md
+/QA-OUTPUT.txt
+/QA-REPORT.md
+/R1-FIX-REPORT.md
+/REVIEW-REPORT.md
+/WORKLOG.md

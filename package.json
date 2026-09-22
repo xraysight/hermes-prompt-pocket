@@ -1,0 +1,17 @@
+{
+  "name": "prompt-pocket",
+  "version": "1.0.0",
+  "description": "A local prompt library plugin for Hermes Desktop.",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "lint": "node scripts/lint.mjs",
+    "test": "node --experimental-vm-modules --test test/*.test.mjs",
+    "test:browser": "node scripts/browser-storage-check.mjs"
+  }
+}
