@@ -8,7 +8,7 @@ Prompt Pocket is a local-only Hermes Desktop plugin for saving named prompts, fi
 
 ## Use
 
-1. Click the icon-only library button in the upper-right title bar. Its tooltip and accessible label are **Prompt pocket**.
+1. Click the plugin button in the upper-right title bar. Its tooltip/label is **Prompt pocket**.
 
    ![Prompt pocket library icon highlighted in the upper-right title bar](docs/images/prompt-pocket-icon.png)
 
