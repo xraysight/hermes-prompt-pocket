@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises'
 
-const source = await readFile(new URL('../plugin.js', import.meta.url), 'utf8')
+const source = await readFile(new URL('../desktop/plugin.js', import.meta.url), 'utf8')
 const forbidden = [
   ['ctx.storage', /\bctx\.storage\b/],
   ['gateway requests', /\bhost\.request(?:Profile)?\b/],

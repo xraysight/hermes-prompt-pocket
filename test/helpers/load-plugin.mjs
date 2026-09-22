@@ -170,7 +170,7 @@ export async function loadPlugin({ crypto, indexedDB } = {}) {
     clearTimeout,
     setTimeout
   })
-  const source = await readFile(new URL('../../plugin.js', import.meta.url), 'utf8')
+  const source = await readFile(new URL('../../desktop/plugin.js', import.meta.url), 'utf8')
   const module = new vm.SourceTextModule(source, { context, identifier: 'plugin.js' })
 
   const fixtures = new Map([

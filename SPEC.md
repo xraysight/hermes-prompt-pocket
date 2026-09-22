@@ -1,6 +1,6 @@
 # Prompt Pocket MVP specification
 
-Status: this document defines the public technical contract implemented by `plugin.js`.
+Status: this document defines the public technical contract implemented by `desktop/plugin.js`.
 
 ## 1. Scope and workflow
 
@@ -14,7 +14,7 @@ Prompt Pocket is a reusable prompt library, not session history, agent memory, a
 
 ## 2. Plugin surface
 
-Stable plugin ID: `prompt-pocket`. Runtime deliverable: the plain ESM [`plugin.js`](./plugin.js). It imports only `@hermes/plugin-sdk`, `react`, and `react/jsx-runtime`, and contains no JSX syntax.
+Stable plugin ID: `prompt-pocket`. Runtime deliverable: the plain ESM [`desktop/plugin.js`](./desktop/plugin.js), packaged with the root `plugin.yaml` manifest. It imports only `@hermes/plugin-sdk`, `react`, and `react/jsx-runtime`, and contains no JSX syntax.
 
 The plugin contributes:
 

@@ -1,7 +1,7 @@
 import { readFile } from 'node:fs/promises'
 import { spawnSync } from 'node:child_process'
 
-const artifact = new URL('../plugin.js', import.meta.url)
+const artifact = new URL('../desktop/plugin.js', import.meta.url)
 const source = await readFile(artifact, 'utf8')
 const imports = [...source.matchAll(/from\s+['"]([^'"]+)['"]/g)].map(match => match[1])
 const allowed = new Set(['@hermes/plugin-sdk', 'react', 'react/jsx-runtime'])

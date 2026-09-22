@@ -1,0 +1,12 @@
+name: prompt-pocket
+version: 0.1.1
+description: "Local prompt library for Hermes Desktop: save, search, and manually copy named prompts."
+author: xraysight
+license: MIT
+homepage: https://github.com/xraysight/hermes-prompt-pocket
+tags: [desktop, prompts, productivity]
+provides_tools: []
+provides_hooks: []
+capabilities: []
+requires_env: []
+python_dependencies: []

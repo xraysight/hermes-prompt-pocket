@@ -6,7 +6,7 @@ import { once } from 'node:events'
 import { setTimeout as delay } from 'node:timers/promises'
 
 const chrome = process.env.CHROME_BIN || 'google-chrome'
-const source = await readFile(new URL('../plugin.js', import.meta.url), 'utf8')
+const source = await readFile(new URL('../desktop/plugin.js', import.meta.url), 'utf8')
 const start = source.indexOf('export const DATABASE_NAME')
 const end = source.indexOf('function readableError')
 if (start < 0 || end < 0) throw new Error('Could not locate the testable storage section in plugin.js')
