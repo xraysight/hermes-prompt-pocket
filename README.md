@@ -47,13 +47,13 @@ The plugin is installed locally in the Desktop client, not on a remote backend. 
 
 ### Option 2: From the Hermes plugin catalog
 
-Once Prompt Pocket is available in the Hermes plugin catalog, install it with:
+Prompt Pocket is available in the [Hermes plugin catalog](https://github.com/NousResearch/hermes-agent/blob/main/plugin-catalog/prompt-pocket.yaml) as `prompt-pocket`. Install it with:
 
 ```sh
-hermes plugins install hermes-prompt-pocket
+hermes plugins install prompt-pocket
 ```
 
-**Not available yet:** `hermes-prompt-pocket` is not currently listed in the catalog. This command is reserved for the future catalog release; use the GitHub option above in the meantime.
+Enable **Prompt Pocket** under **Capabilities -> Plugins** in Hermes Desktop after installation. It is disabled by default.
 
 ## Local storage and backups
 
